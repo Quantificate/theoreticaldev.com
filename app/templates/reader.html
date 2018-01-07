@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Theoretical Web Dev Backend Reader</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/css/this.css" />
+  </head>
+  <body>
+    <header><h1>Entries from the Site</h1></header>
+      {% for item in thelist %}
+      <div id="itembox">
+        <ul>
+        {% for j in item %}
+          <li>{{ j }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+  </body>
+</html>

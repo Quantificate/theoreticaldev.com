@@ -1,0 +1,57 @@
+/*-----general-----*/
+body, html {background:#fff;}
+h1, h2, h3 {font-family:Quicksand, Open Sans, sans-serif;}
+h4, h5, h6, p, a, li {font-family:Open Sans, sans-serif;}
+ul, li {list-style:none;}
+a {text-decoration:none;}
+
+/*-----specifics-----*/
+header {width:100%;height:100px;background:#fff;z-index:10;}
+#left {float:left;margin-top:30px;margin-left:10px;}
+#left h3 {color:#38a3bb;float:left;}
+#left ul {float:right;}
+#left li {display:inline;}
+#left a {font-size:24px;padding:5px;}
+.fa-facebook {color:royalblue;}
+.fa-facebook:hover {color:#000;}
+.fa-twitter {color:skyblue;}
+.fa-twitter:hover {color:#000;}
+.fa-envelope:hover {color:#000;}
+#right {float:right;margin-top:30px;margin-right:10px;color:#38a3bb}
+.jumbotron {text-align:center;background:url(/static/images/sunrise.jpg)center no-repeat;height:1000px;background-size:cover;color:#fff;background-position:fixed;background-attachment:fixed;}
+.jumbotron h1 {margin-top:450px;}
+.jumbotron p {font-size:18px;}
+#btnbox a {margin-top:5px;}
+#second {background:url(/static/images/math.jpg)center no-repeat;height:300px;background-position:fixed;background-attachment:fixed;background-size:cover;}
+#front {background:skyblue;height:auto;margin-top:-32px;padding:10px 0;}
+#back {background:#285fa8;color:#fff;margin-top:-32px;padding:10px 0;}
+#html5 {background:url(/static/images/html.png)center no-repeat;background-size:contain;width:100%;height:100%;}
+#css3 {background:url(/static/images/css.png)center no-repeat;background-size:contain;width:70%;height:100%;}
+#boot {background:url(/static/images/bootstrap.png)center no-repeat;background-size:contain;width:100%;height:100%;}
+#js {background:url(/static/images/js.png)center no-repeat;background-size:contain;width:100%;height:100%;}
+#jquery {background:url(/static/images/jquery.png)center no-repeat;background-size:contain;width:100%;height:100%;}
+#python {background:url(/static/images/python.png)center no-repeat;background-size:contain;width:80%;height:100%;}
+#flask {background:url(/static/images/flask.png)center no-repeat;background-size:contain;width:100%;height:100%;}
+#sqlite {background:url(/static/images/sqlite.png)center no-repeat;background-size:contain;width:100%;height:100%;}
+#mysql {background:url(/static/images/mysql.jpg)center no-repeat;background-size:contain;width:80%;height:100%;}
+#third {background:url(/static/images/service.jpg)center no-repeat;background-size:cover;height:400px;background-attachment:fixed;background-position:fixed;}
+#about {padding:10px 0;margin-top:-32px;background:blanchedalmond;}
+#seth {background:url(/static/images/seth.jpg)center no-repeat;width:100%;height:100%;background-size:contain;border:#000 1px solid;border-radius:50%;}
+#service {background:url(/static/images/tech.png)center no-repeat;width:100%;height:100%;background-size:contain;}
+#fourth {background:url(/static/images/call.jpg)center no-repeat;height:400px;background-size:cover;background-attachment:fixed;background-position:fixed;}
+#contact {background:palegreen;margin-top:-32px;padding:10px 0;}
+#bottom {background:#444;padding:10px 0;}
+#bottom p {color:#fff;}
+#itembox {border:#666 1px solid;margin-top:2px;}
+#itembox ul li:first-of-type {font-weight:bold;}
+#itembox ul li:last-of-type {font-style:italic;}
+
+/*-----response-----*/
+@media (max-width:865px){
+    #right {display:none;}
+}
+@media (max-width:450px){
+    header {display:none;}
+    .jumbotron {height:400px;}
+    .jumbotron h1 {margin-top:0;}
+}
